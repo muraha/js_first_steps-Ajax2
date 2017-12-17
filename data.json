@@ -1,0 +1,53 @@
+[
+	{
+		"country name": "Ukraine",
+		"delivery points":[
+			{
+				"city": "Kyiv",
+				"has delivery point": true
+			},
+			{
+				"city": "Lviv",
+				"has delivery point": true
+			},
+			{
+				"city": "Kharkiv",
+				"has delivery point": false
+			},
+			{
+				"city": "Dnipro",
+				"has delivery point": false
+			}
+		]
+	},
+	{
+		"country name": "USA",
+		"delivery points":[
+			{
+				"city": "New York",
+				"has delivery point": true
+			},
+			{
+				"city": "LA",
+				"has delivery point": false
+			},
+			{
+				"city": "Chicago",
+				"has delivery point": true
+			}
+		]
+	},
+	{
+		"country name": "England",
+		"delivery points":[
+			{
+				"city": "London",
+				"has delivery point": true
+			},
+			{
+				"city": "Liverpool",
+				"has delivery point": false
+			}
+		]
+	}
+]

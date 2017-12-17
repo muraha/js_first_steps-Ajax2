@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <p>Псевдо інтерфейс форми для замовлення товару</p>
+    <p>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="nsf" placeholder="Please enter full name" pattern="/\p{L}{2,} \p{L}{2,}/" required>
+    </p>
+    <p>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="email: example@asd.com" pattern="/\w+@[a-z]{1,}\.[a-z]{1,}/" required>
+    </p>
+    <p>
+        <label for="pass">Password:</label>
+        <input type="password" id="pass" name="password" placeholder="Your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
+            required>
+    </p>
+    <label for="country">Country:</label>
+    <select id="country">
+    </select>
+
+    <label for="city">City:</label>
+    <select id="city">
+    </select>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
